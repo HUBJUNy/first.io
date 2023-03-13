@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="C:\Users\86159\Desktop\html\test 1\label.css" />
+  </head>
+  <body>
+    <h1 id="title">一个简单的表格</h1>
+    <p id="description" href=""><strong>你爹做的网站</strong></p>
+    <form id="survey-form">
+      <label id="name-label"><em>输入你的名字</em></label><input id="name" text="type" placeholder="Enter your name" required>
+      <label id="email-label"><em>输入你的邮箱</em></label><input id="email" placeholder="Enter your email" type="email" required>
+      <label id="number-label"><em>输入你的年龄</em></label><input id="number" type="number" min="16" max="120"  placeholder="Enter your age" required>
+      <fieldset>
+        <label id="who"><em>我是你的谁？</em></label>
+        <label for="1"><input id="1" type="radio" name="account-type" class="inline" value="1"/><em>爹</em></label>
+        <label for="2"><input id="2" type="radio" name="account-type" class="inline" value="2"/><em>爸爸</em></label>
+      </fieldset>
+      <label for="dropdown"><em>选择一个你喜欢的东西</em></label>
+        <select id="dropdown">
+        <option value=""><em>(select one)</em></option>
+        <option value="1"><em>小黄狗</em></option>
+        <option value="2"><em>小方狗</em></option>
+        <option value="3"><em>小张狗</em></option>
+        <option value="4"><em>小戴狗</em></option>
+      </select>
+      <survey-form value="survey-form">
+        <fieldset value="he">
+            <label value="q"><em value="q">你是小黑子吗？</em></label>
+            <label value="w"><input type="checkbox" class="inline" value="w"><em value="w">是</em></label>
+            <label value="e"><input type="checkbox" class="inline" value="e"><em value="e">必须是</em></label>
+            <label value="r"><input type="checkbox" class="inline" value="r"><em value="r">你干嘛……哎呦</em></label>
+        </fieldset>
+        <label for="bio" value="bio"><em>你喜欢这个表单吗?</em>
+          <textarea value="bio" id="bio" name="bio" rows="3" cols="30" placeholder="喜欢...."></textarea>
+        </label>
+        <input value="submit" id="submit" type="submit" value="Submit" />
+      </survey-form>
+    </form>
+  </body>
+</html>
